@@ -52,10 +52,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
 
     override fun onResume() {
         super.onResume()
-        if (isCheckPermission())
-        {
-            getCurrentLocation()
-        }
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
